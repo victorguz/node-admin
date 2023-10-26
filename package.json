@@ -2,7 +2,7 @@
   "name": "node-admin-cli",
   "version": "0.0.1",
   "description": "node-admin it's a wonderful administrator such as Ruby On Rails ActiveAdmin or Django Admin. It works on the same way: create a \"model\", and this model will be used to create the Database, the services, the controllers and the Views.",
-  "main": "bin/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest",
     "build": "tsc && node dist/index.js -h"
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/victorguz/node-admin#readme",
   "bin": {
-    "node-admin-cli": "./bin/index.js"
+    "node-admin-cli": "./dist/index.js"
   },
   "dependencies": {
     "commander": "^11.1.0",
