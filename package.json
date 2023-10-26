@@ -1,5 +1,5 @@
 {
-  "name": "node-admin-cli",
+  "name": "@victorguz/node-admin-cli",
   "version": "0.0.1",
   "description": "node-admin it's a wonderful administrator such as Ruby On Rails ActiveAdmin or Django Admin. It works on the same way: create a \"model\", and this model will be used to create the Database, the services, the controllers and the Views.",
   "main": "dist/index.js",
@@ -21,15 +21,12 @@
     "node-admin-cli": "./dist/index.js"
   },
   "dependencies": {
-    "commander": "^11.1.0",
-    "figlet": "^1.7.0"
+    "commander": "11.1.0",
+    "figlet": "1.7.0"
   },
   "devDependencies": {
-    "@types/boxen": "^3.0.1",
-    "@types/chalk": "^2.2.0",
-    "@types/figlet": "^1.5.7",
-    "@types/node": "^20.8.9",
-    "@types/yargs": "^17.0.29",
-    "typescript": "^5.2.2"
+    "@types/figlet": "1.5.7",
+    "@types/node": "20.8.9",
+    "typescript": "5.2.2"
   }
 }
