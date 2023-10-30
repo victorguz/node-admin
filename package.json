@@ -9,14 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/victorguz/node-admin.git"
+    "url": "git+https://github.com/victorguz/node-admin-cli.git"
   },
-  "author": "victorguz",
+  "author": "@victorguz",
   "license": "ISC",
+  "keywords": [
+    "cli",
+    "npmtool",
+    "admin",
+    "controlpanel"
+  ],
   "bugs": {
-    "url": "https://github.com/victorguz/node-admin/issues"
+    "url": "https://github.com/victorguz/node-admin-cli/issues"
   },
-  "homepage": "https://github.com/victorguz/node-admin#readme",
+  "homepage": "https://github.com/victorguz/node-admin-cli#readme",
   "bin": {
     "node-admin-cli": "./dist/index.js"
   },
